@@ -22,8 +22,28 @@ $gradient-top-left: linear-gradient(225deg, #9ad2cbff, #d7ebbaff, #feffbeff, #eb
 $gradient-bottom-left: linear-gradient(315deg, #9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
 $gradient-radial: radial-gradient(#9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
 
+
+/* ========================================
+    Mixins
+======================================== */
+
+//blah blah
+
+/* ========================================
+    Universal Stying
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* ========================================
     Typography
 ======================================== */
-
 

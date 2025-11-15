@@ -1,0 +1,27 @@
+/* ========================================
+    Color Variables
+======================================== */
+/* SCSS HEX */
+/* SCSS Gradient */
+/* ========================================
+    TODO: Mixins as I see fit
+======================================== */
+/* ========================================
+    Universal Stying
+======================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: radial-gradient(#9ad2cb, #d7ebba, #feffbe, #ebd494, #472836);
+}
+
+/* ========================================
+    Typography
+======================================== */
+
+/*# sourceMappingURL=style.css.map */
