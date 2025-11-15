@@ -1,23 +1,15 @@
+@use "sass:color";
+
+/* ========================================
+    Color Variables
+======================================== */
+
 /* SCSS HEX */
 $tiffany-blue: #9ad2cbff;
 $tea-green: #d7ebbaff;
 $cream: #feffbeff;
 $vanilla: #ebd494ff;
 $eggplant: #472836ff;
-
-/* SCSS HSL */
-$tiffany-blue: hsla(173, 38%, 71%, 1);
-$tea-green: hsla(84, 55%, 83%, 1);
-$cream: hsla(61, 100%, 87%, 1);
-$vanilla: hsla(44, 69%, 75%, 1);
-$eggplant: hsla(333, 28%, 22%, 1);
-
-/* SCSS RGB */
-$tiffany-blue: rgba(154, 210, 203, 1);
-$tea-green: rgba(215, 235, 186, 1);
-$cream: rgba(254, 255, 190, 1);
-$vanilla: rgba(235, 212, 148, 1);
-$eggplant: rgba(71, 40, 54, 1);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
@@ -29,4 +21,9 @@ $gradient-bottom-right: linear-gradient(135deg, #9ad2cbff, #d7ebbaff, #feffbeff,
 $gradient-top-left: linear-gradient(225deg, #9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
 $gradient-bottom-left: linear-gradient(315deg, #9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
 $gradient-radial: radial-gradient(#9ad2cbff, #d7ebbaff, #feffbeff, #ebd494ff, #472836ff);
+
+/* ========================================
+    Typography
+======================================== */
+
 
