@@ -4,7 +4,7 @@
 /* SCSS HEX */
 /* SCSS Gradient */
 /* ========================================
-    TODO: Mixins as I see fit
+    Mixins
 ======================================== */
 /* ========================================
     Universal Stying
@@ -17,7 +17,6 @@
 
 html {
   scroll-behavior: smooth;
-  background-image: radial-gradient(#9ad2cb, #d7ebba, #feffbe, #ebd494, #472836);
 }
 
 /* ========================================
