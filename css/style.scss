@@ -1,10 +1,12 @@
 @use "sass:color";
 
 /* ========================================
-    Color Variables
+    Global Variables
 ======================================== */
 
-/* SCSS HEX */
+/* Base colors */
+
+/* SCSS RGB */
 $midnight-violet: rgb(26, 11, 19);
 $vintage-grape: rgb(58, 43, 63);
 $lavender-grey: rgb(194, 201, 230);
@@ -22,6 +24,33 @@ $gradient-top-left: linear-gradient(225deg, $midnight-violet, $blue-slate);
 $gradient-bottom-left: linear-gradient(315deg, $midnight-violet, $blue-slate);
 $gradient-radial: radial-gradient($midnight-violet, $blue-slate);
 
+
+/* Derived colors */
+$text-dark: $midnight-violet;
+$text-light: $blue-slate;
+$text-muted: $lavender-grey-2;
+$bg-light: color.scale($lavender-grey, $lightness: 15%);
+$bg-white: #f8f9faff;
+$border-color: color.scale($lavender-grey, $lightness: 10%);
+
+/* Typography */
+$font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$line-height-base: 1.6;
+
+/* Spacing */
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 3rem;
+
+/* Shadows */
+$shadow-sm: 0 1px 3px color.change($midnight-violet, $alpha: 0.1);
+$shadow-md: 0 4px 6px color.change($midnight-violet, $alpha: 0.12);
+$shadow-lg: 0 10px 20px color.change($midnight-violet, $alpha: 0.15);
+$shadow-xl: 0 20px 40px color.change($midnight-violet, $alpha: 0.18);
+$shadow-colored: 0 10px 30px color.change($lavender-grey-2, $alpha: 0.25);
 
 /* ========================================
     Mixins
@@ -42,8 +71,4 @@ $gradient-radial: radial-gradient($midnight-violet, $blue-slate);
 html {
     scroll-behavior: smooth;
 }
-
-/* ========================================
-    Typography
-======================================== */
 
